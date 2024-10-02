@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.dashboard-ul div{
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 200px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 92px;
+  margin-left: 8px;
+}
+
+.dashboard-ul div a {
+  margin-top: 9px;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

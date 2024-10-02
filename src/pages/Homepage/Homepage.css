@@ -1,0 +1,91 @@
+/* Reset some basic elements */
+body, h3, p, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .child {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .child:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .child img {
+    border-radius: 8px;
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .child p {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .child h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .child span {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .child button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .child button:hover {
+    background-color: #218838;
+  }
+  
+  .child button:active {
+    background-color: #1e7e34;
+  }
+  
+  @media (max-width: 768px) {
+    .child {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .child {
+      width: calc(100% - 40px);
+    }
+  }
+  

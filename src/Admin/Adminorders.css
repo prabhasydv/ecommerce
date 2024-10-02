@@ -1,0 +1,47 @@
+/* Adminorders.css */
+.admin-orders {
+    margin: 20px;
+  }
+  
+  .admin-orders table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .admin-orders th,
+  .admin-orders td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-orders th {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-orders tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .admin-orders .order-details {
+    margin-top: 10px;
+  }
+  
+  .admin-orders .product-item {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .admin-orders .product-image {
+    margin-right: 20px;
+  }
+  
+  .admin-orders .product-info {
+    flex-grow: 1;
+  }
+  
+  .admin-orders .product-info p {
+    margin: 5px 0;
+  }
+  

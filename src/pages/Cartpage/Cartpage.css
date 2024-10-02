@@ -1,0 +1,129 @@
+.cartpage {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cartpage h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cartpage p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .parent-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .container {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .first {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .first img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 150px;
+    margin-right: 20px;
+  }
+  
+  .first div {
+    flex: 1;
+  }
+  
+  .first p {
+    margin: 5px 0;
+  }
+  
+  .first span {
+    font-weight: bold;
+  }
+  
+  .first button {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .first button:hover {
+    background-color: #c82333;
+  }
+  
+  .second {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .second h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .second p {
+    margin: 10px 0;
+  }
+  
+  .second h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .second hr {
+    margin: 20px 0;
+  }
+  
+  .second button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .second button:hover {
+    background-color: #218838;
+  }
+  
+  .second button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 768px) {
+    .parent-cart {
+      flex-direction: column;
+    }
+  
+    .first img {
+      margin: 0 auto 20px;
+    }
+  }
+  
